@@ -1,0 +1,111 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,notify,payment,Verified bank payment update matches the user's active account and a prior identical message they opened and replied to.,0.88,message_0243
+msg_091,mute,scam,Verification-code request with account-expiry pressure matches a reported scam pattern from this sender.,0.86,message_0238
+msg_090,digest,unknown,"First contact asks a general package question without today's deadline, payment request, or safety concern.",0.83,none
+msg_048,mute,scam,QR payment demand with access-blocking pressure matches this sender’s previously reported scam pattern.,0.86,message_0151
+msg_040,mute,forward,Repeated forwarded chain messages from this sender are dismissed and muted by the user in an already muted family group.,0.86,message_0136;message_0135
+msg_075,notify,business_update,Verified Grab ride update matches the user's booking today and may affect pickup or arrival plans.,0.88,message_0206
+msg_005,notify,personal,"Known seller asks for a same-day pickup decision, and this user consistently opens and often replies to their messages.",0.88,message_0049
+msg_104,mute,promotion,"Repeated resale offers from this sender were dismissed and muted by the user, indicating this promotion is unwanted.",0.85,message_0050
+msg_069,mute,greeting,"Repeated forwarded greetings from this sender are consistently dismissed, and the family group is muted by this user.",0.86,message_0042;message_0178
+msg_107,mute,scam,OTP request and routing override are clear scam signals requiring the user to disclose a verification code.,0.86,message_0023
+msg_070,mute,scam,OTP and account-blocking pressure with a verification link matches this sender’s earlier security scam pattern.,0.86,message_0023;message_0195
+msg_003,notify,business_update,Verified Amazon order update matches the user's active order and indicates delivery progress today.,0.88,message_0031
+msg_099,digest,personal,Known sender's non-blocking review notes can wait for digest despite a tomorrow standup reading request.,0.82,message_0227
+msg_008,digest,business_update,Verified Hoop feedback request matches the user's recent purchase and can wait beyond quiet hours.,0.83,message_0071
+msg_092,digest,payment,"Verified card statement is a legitimate payment update but requests review whenever convenient, so it can wait.",0.83,none
+msg_060,notify,urgent,Same-day faculty deadline requires submitting internship documents before the portal closes at 5 PM.,0.89,message_0176
+msg_004,notify,event,Verified healthcare update matches the user's upcoming appointment and asks review before the scheduled time.,0.88,message_0005
+msg_030,mute,promotion,"This user repeatedly dismisses this sender’s marketplace sales, and the group is already muted.",0.86,message_0050;message_0115
+msg_045,notify,urgent,Immediate gate delivery request with a ten-minute deadline requires the user’s action now.,0.88,message_0031
+msg_052,mute,scam,"Repeated refund messages request wallet details through a mismatched domain, and this user previously reported and muted them.",0.86,message_0159
+msg_009,mute,event,"This casual sports thread is low priority, and the user has muted the group despite opening similar invitations.",0.84,message_0074
+msg_071,digest,personal,"Ambiguous family plan for tomorrow is useful but not urgent, and this sender’s prior messages were opened.",0.82,message_0197
+msg_016,mute,scam,"Account-blocking pressure and a suspicious login link demand immediate verification, matching this sender's reported scam pattern.",0.86,message_0024;message_0087
+msg_065,digest,promotion,"Verified Target promotion matches recent browsing and engagement, but it is a low-priority offer that can wait.",0.83,message_0261;message_0185
+msg_038,mute,forward,"Repeated chain forwards from this sender were dismissed and muted by the user, making this low-value content.",0.86,message_0131;message_0132
+msg_086,notify,event,Booking schedule change for tomorrow matches the user's confirmed travel activity and prior engagement.,0.89,message_0222
+msg_014,mute,promotion,Swish promotion follows the user's opt-out and repeated dismissal of identical TRY50 offers.,0.86,message_0017;message_0084
+msg_094,mute,spam,Unsolicited mass marketing from a business with no demonstrated user engagement or opt-in history.,0.84,none
+msg_029,digest,promotion,"A relevant peer marketplace sale from a sender this user consistently opens and sometimes replies to, but it is not urgent.",0.83,message_0049
+msg_105,mute,forward,Repeated forwarded health advice from this sender was dismissed and muted by the user previously.,0.85,message_0233
+msg_002,notify,personal,"Direct work mention requests a quick call before a client meeting, and this sender's prior requests were always answered.",0.89,message_0003
+msg_010,digest,business_update,Verified cinema feedback request matches recent activity but is non-urgent and can wait for a summary.,0.83,message_0011
+msg_078,mute,scam,Urgent benefit approval and bank-detail request match this user's previously reported financial scams.,0.86,message_0048;message_0212
+msg_013,mute,spam,"Unsolicited sale from a member this user repeatedly dismissed and muted, indicating unwanted group marketing.",0.85,message_0081;message_0082
+msg_018,mute,scam,Reward claim with expiry pressure matches a previously reported and muted scam pattern from this sender.,0.86,message_0026
+msg_044,mute,scam,Verification and account-blocking pressure from a repeatedly reported sender indicates an OTP scam.,0.86,message_0143
+msg_032,digest,personal,"A low-urgency classmate request can wait for digest, matching a similar message this user previously opened.",0.83,message_0119
+msg_106,notify,event,Same-day dance-practice location change from a trusted sender requires arrival through the side entrance before 7:15.,0.88,message_0234
+msg_006,notify,urgent,Same-day maintenance payment deadline from a trusted society admin requires action before 5 PM.,0.88,message_0029
+msg_109,mute,scam,QR payment pressure and instructions to override routing resemble the same reported access-card scam pattern.,0.86,message_0151;message_0030
+msg_108,mute,scam,"Verification pressure, mismatched domain, and repeated reported Chase alerts indicate a PIN-harvesting scam.",0.86,message_0093;message_0236
+msg_019,mute,scam,Account-restriction pressure and a mismatched banking domain match a previously reported scam pattern.,0.86,message_0093
+msg_088,mute,promotion,"Repeated marketplace offers from this sender were dismissed and muted by the user, including the same jacket request.",0.86,message_0224;message_0050
+msg_056,notify,event,Direct mention asks for a same-day response about a moved medical appointment and trusted sender history shows prompt replies.,0.89,message_0168
+msg_027,digest,promotion,Verified travel promotion matches the user's recent interests but is not urgent enough to interrupt them.,0.83,message_0007
+msg_050,notify,event,Health-related appointment or prescription review is an actionable event matching the user's established pharmacy activity.,0.87,message_0279
+msg_083,notify,personal,Trusted coworker admin requests tomorrow-morning review with a before-lunch work deadline.,0.87,message_0219
+msg_063,mute,scam,Account-lock pressure and a QR payment screenshot request match this user's previously reported payment scam pattern.,0.86,message_0181;message_0182
+msg_033,digest,personal,Known family contact sends a harmless greeting and non-urgent check-in; this user can read it in a digest.,0.83,message_0121
+msg_061,mute,forward,"Repeated forwarded greetings from this sender are consistently dismissed, and the family group is muted by the user.",0.86,message_0042;message_0178
+msg_020,mute,scam,"Account verification pressure through a shortened link is a suspicious scam pattern, reinforced by this sender's dismissed history.",0.86,message_0096
+msg_017,mute,scam,"Account-blocking payment pressure from a previously reported sender indicates a scam, and this group is muted.",0.86,message_0089
+msg_058,mute,forward,Repeated forwarded health claims from this sender are consistently dismissed and muted by this user.,0.86,message_0039;message_0078
+msg_026,mute,scam,Verification payment pressure and a mismatched domain indicate a parcel-delivery scam already reported by this user.,0.86,message_0032;message_0108
+msg_047,notify,event,Same-day operational update from a trusted society admin requires residents to use the service lift.,0.88,message_0001
+msg_046,mute,scam,OTP and account-closure pressure is a verification scam matching this sender's previously reported messages.,0.86,message_0024;message_0147
+msg_042,notify,urgent,Same-day trusted maintenance-admin alert requires immediate action before the gate closes and cars are towed.,0.88,message_0140
+msg_079,mute,scam,OTP and account-blocking pressure indicate a verification scam.,0.86,message_0023;message_0195
+msg_098,notify,personal,Known sender requests an immediate call to make a time-sensitive clinic appointment decision together.,0.88,message_0226
+msg_037,notify,urgent,Same-day water-supply window from a trusted society admin requires immediate action within ten minutes.,0.89,message_0001
+msg_007,digest,event,Society event registration has a long deadline and can wait for a summary.,0.83,none
+msg_085,mute,scam,Account-blocking pressure and an OTP request from an unverified lookalike bank sender indicate a verification scam.,0.86,message_0221;message_0053
+msg_001,notify,urgent,Same-day water supply window from a trusted admin requires immediate action to fill drinking water.,0.89,message_0057
+msg_021,notify,payment,Trusted society admin gives a same-day payment deadline and warns against unsafe resident payment links.,0.88,message_0029
+msg_028,mute,promotion,Opted-out travel marketing repeats a promotion this user has repeatedly dismissed and muted.,0.86,message_0034
+msg_012,mute,forward,Repeated forwarded health tips from this sender were dismissed and muted by the user previously.,0.86,message_0079;message_0247
+msg_064,mute,scam,Refund deadline pressure asking to verify wallet and card details matches this sender's repeated reported verification scams.,0.86,message_0087;message_0024
+msg_103,notify,personal,"Known sender requests a same-day pickup response by 6 PM, matching this user's consistently engaged history.",0.88,message_0049
+msg_031,notify,urgent,Trusted coworker admin gives a same-evening work deadline requiring preparation and action-item closure.,0.88,message_0118
+msg_057,notify,urgent,Direct work mention from a trusted admin requests immediate build troubleshooting before a client update.,0.88,message_0003
+msg_087,mute,spam,"Repeated real-estate promotions from this sender were dismissed, reported, and muted by the user.",0.86,message_0204;message_0203
+msg_067,notify,payment,Same-day maintenance payment deadline from a trusted society admin may trigger a late fee.,0.88,message_0068
+msg_039,notify,event,Same-day school deadline directly asks you to send the fee receipt before the field-trip list closes.,0.89,message_0037
+msg_082,notify,urgent,Same-day payment outage escalation from a trusted coworker admin asks the user to join the incident bridge now.,0.89,message_0218
+msg_066,mute,promotion,Opted-out retail promotion matches cashback reminders this user repeatedly dismissed and muted.,0.86,message_0052;message_0188
+msg_049,notify,event,Verified Shopee return pickup scheduled today requires the user to prepare the item and act during the 2–5 PM window.,0.88,message_0153;message_0154
+msg_015,mute,scam,OTP request with profile-lock pressure is a verification scam requiring immediate muting.,0.86,message_0023;message_0056
+msg_051,mute,promotion,Opted-out Flipkart promotion repeats a pattern this user repeatedly dismissed and muted.,0.86,message_0103;message_0257
+msg_097,digest,personal,Known personal contact says conversation can wait until tomorrow and explicitly states nothing is urgent.,0.83,message_0054
+msg_089,notify,personal,Known lost-item recovery has a same-day 7 PM deadline requiring the user to act today.,0.88,none
+msg_053,digest,forward,Repeated semiconductor research from a trusted sender is useful but explicitly non-urgent and suitable for later reading.,0.83,message_0161
+msg_059,mute,scam,Urgent benefit-release pressure requesting an account number is a sensitive-information scam pattern.,0.85,message_0023;message_0053
+msg_024,mute,promotion,This verified-business promotion follows the user's opt-out and repeated dismissals of similar Flipkart offers.,0.86,message_0103
+msg_072,mute,scam,OTP request with account-hold pressure and a suspicious verification link is a clear scam pattern.,0.86,message_0023;message_0053
+msg_036,mute,scam,"Unverified payout verification pressure uses a mismatched young domain, matching prior reported RazorpayX verification scams.",0.86,message_0127;message_0128
+msg_076,mute,scam,"Unverified lookalike refund sender pressures wallet details today, matching previously reported scam messages.",0.86,message_0159
+msg_055,notify,personal,"Trusted family sender requests an urgent call within ten minutes, matching this user's consistently responsive history.",0.88,message_0165
+msg_102,notify,urgent,Same-day rollback monitoring request requires the user to stay online for the next 30 minutes.,0.88,message_0230
+msg_080,notify,event,Same-day gate repair notice from a trusted society admin requires moving the user's car within 10 minutes.,0.88,message_0130
+msg_093,digest,business_update,Verified FedEx delivery update is useful but lacks matching user activity and arrives during quiet hours.,0.82,none
+msg_034,mute,greeting,"Repeated greetings from this sender are consistently dismissed and muted by this user, and the group is already muted.",0.86,message_0013
+msg_035,digest,promotion,"Verified RazorpayX promotion matches the user's payment-stack interest, but it is a non-urgent sales message.",0.83,message_0125
+msg_101,digest,personal,"A caring personal note can wait through quiet hours, matching a similar message this user previously opened.",0.83,message_0229
+msg_041,digest,business_update,"Legitimate low-priority survey from a verified education business, matching a previously opened Polaris update.",0.82,message_0137
+msg_011,mute,greeting,Repeated greetings from this sender were dismissed and muted by the user every time.,0.86,message_0013
+msg_110,mute,scam,Verification-code request with account suspension pressure matches this sender's previously reported scam.,0.86,message_0238
+msg_095,mute,scam,First contact uses router manipulation and requests a wallet PIN through a suspicious payment link.,0.86,none
+msg_074,mute,scam,"Repeated land offers from this sender demand payment before papers, and this user previously dismissed, muted, and reported them.",0.86,message_0203;message_0358
+msg_073,mute,scam,Verification pressure and a suspicious link match this sender's repeatedly reported password-and-OTP scam pattern.,0.86,message_0024;message_0087
+msg_054,mute,scam,Loan-fee payment pressure matches a previously dismissed and reported fraudulent approval-link pattern.,0.86,message_0048;message_0163
+msg_068,digest,event,Non-urgent group planning update matches a prior message this user opened and can wait for a later summary.,0.83,message_0191
+msg_100,notify,urgent,Known sender reports a recurring payment-worker escalation starting in 20 minutes and asks for immediate work action.,0.89,message_0228
+msg_062,digest,event,Safety gate: arrived during the user's quiet hours (21:30-06:30); deferred to digest.,0.82,message_0043
+msg_096,notify,urgent,First-contact message reports a found passport with a same-day pickup deadline requiring prompt action.,0.87,none
+msg_043,notify,urgent,Trusted society admin reports a same-day water collection window ending in 15 minutes.,0.89,message_0001
+msg_077,digest,event,Safety gate: arrived during the user's quiet hours (21:00-06:00); deferred to digest.,0.82,message_0037
+msg_081,notify,event,Same-day pickup gate change from a trusted school transport admin requires the user to act before 3:40.,0.89,message_0217
+msg_025,notify,business_update,Verified Amazon order update matches the user's recent activity and provides same-day delivery status.,0.89,message_0004
+msg_084,mute,promotion,"Opted-out HDFC marketing repeats a promotion this user has repeatedly dismissed, so it should remain muted.",0.86,message_0220
+msg_022,mute,scam,"A non-admin payment link repeats a pattern this user dismissed and muted, indicating suspicious scam pressure.",0.85,message_0099;message_0100

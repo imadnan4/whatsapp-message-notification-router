@@ -1,0 +1,19 @@
+[project]
+name = "message-notification-router"
+version = "0.1.0"
+description = "HackerRank Orchestrate (Aug 2026) — Message Notification Router"
+requires-python = ">=3.14"
+dependencies = [
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+    "faster-whisper>=1.0",
+    "scikit-learn>=1.9",
+    "Pillow>=11.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

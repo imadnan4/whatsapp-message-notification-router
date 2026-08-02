@@ -1,0 +1,24 @@
+# secrets
+.env
+
+# internal workflow docs (kept out of the public repo on purpose)
+AGENTS.md
+CLAUDE.md
+RESEARCH.md
+problem_statement.md
+code/INTERVIEW.md
+
+# packaging artifacts
+code.zip
+
+# python env / artifacts
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# runtime caches (media transcripts/descriptions, whisper models, checkpoints,
+# semantic embedding index)
+.cache/
+.pi-subagents/
+log.txt
